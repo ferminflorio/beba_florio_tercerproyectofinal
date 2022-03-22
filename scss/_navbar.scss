@@ -1,0 +1,27 @@
+.nav-item {
+	font-family: $font;
+	font-size: xx-large;
+	padding-right: 20px;
+}
+.navbar {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.nav-index {
+	background-image: none;
+}
+.main_nav_list {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-row-gap: 3px;
+	margin: 0;
+	padding: 10px;
+}
+
+li {
+	list-style-type: none;
+	a:hover {
+		transform: translateX(5px);
+	}
+}
