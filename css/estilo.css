@@ -136,7 +136,7 @@ li {
 
 .footer-data {
   background-color: black;
-  position: relative;
+  position: absolute;
   top: 100%;
   width: 100%;
   left: 0;
